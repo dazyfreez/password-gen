@@ -22,21 +22,11 @@ def generate_random_password():
 		password.append(random.choice(digits))
 	for i in range(special_characters_count):
 		password.append(random.choice(special_characters))
-
-
-	## if the total characters count is less than the password length
-	## add random characters to make it equal to the length
 	if characters_count < length:
 		random.shuffle(characters)
 		for i in range(length - characters_count):
 			password.append(random.choice(characters))
-
-
-	## shuffling the resultant password
 	random.shuffle(password)
-
-	## converting the list to string
-	## printing the list
 	print("".join(password))
 
 
