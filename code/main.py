@@ -5,4 +5,3 @@ x = int(input("length: "))
 import random
 print("das ist das haus vom nikolaus easy")
 print("das ist ziemlich cool")
-print
