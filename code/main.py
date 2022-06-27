@@ -8,8 +8,6 @@ def generate_random_password():
 	password = []
 	for i in range(length):
 		password.append(random.choice(characters))
-
-	## shuffling the resultant password
 	random.shuffle(password)
 
 	## converting the list to string
