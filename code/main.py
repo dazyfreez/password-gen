@@ -11,3 +11,8 @@ def generate_random_password():
 	random.shuffle(password)
 	print("".join(password))
 generate_random_password()
+print("do you want to save your password? (y/n)")
+if input() == "y":
+    with open("password.txt", "w") as f:
+        f.write("".join(password))
+    print("password saved")
