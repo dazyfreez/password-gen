@@ -10,6 +10,7 @@ def generate_random_password():
 		password.append(random.choice(characters))
 	random.shuffle(password)
 	print("".join(password))
+    password = "".join(password)
 generate_random_password()
 print("do you want to save your password? (y/n)")
 if input() == "y":
