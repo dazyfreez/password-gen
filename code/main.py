@@ -12,9 +12,6 @@ def generate_random_password():
 	special_characters_count = int(input("Enter special characters count in password: "))
 
 	characters_count = alphabets_count + digits_count + special_characters_count
-
-	## check the total length with characters sum count
-	## print not valid if the sum is greater than length
 	if characters_count > length:
 		print("Characters total count is greater than the password length")
 		return
