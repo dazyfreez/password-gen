@@ -15,12 +15,7 @@ def generate_random_password():
 	if characters_count > length:
 		print("Characters total count is greater than the password length")
 		return
-
-
-	## initializing the password
 	password = []
-	
-	## picking random alphabets
 	for i in range(alphabets_count):
 		password.append(random.choice(alphabets))
 
