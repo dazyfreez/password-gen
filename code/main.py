@@ -29,3 +29,4 @@ def generate_random_password():
 	random.shuffle(password)
 	print("".join(password))
 generate_random_password()
+print("pls copy paste the password in the clipboard")
