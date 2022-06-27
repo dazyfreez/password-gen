@@ -4,8 +4,6 @@ characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
 def generate_random_password():
 	length = int(input("Enter password length: "))
-
-	## shuffling the characters
 	random.shuffle(characters)
 	
 	## picking random characters from the list
