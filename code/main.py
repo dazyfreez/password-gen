@@ -4,4 +4,3 @@ print("please set a password length")
 x = int(input("length: "))
 import random
 
-
